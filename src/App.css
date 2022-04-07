@@ -1,0 +1,25 @@
+*{
+  margin:0;
+};
+
+.App{
+    background-color: rgb(253, 252, 252);
+    height: 1vh;
+}
+.app_header{
+  background-color: azure;
+  padding : 20px;
+  display: flex;
+  border-bottom: 1px solid burlywood;
+}
+.app_header_image{
+  object-fit: contain;
+  max-width : 2%;
+  height : auto;
+  padding : 5px;
+}
+#modal-modal-description{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
